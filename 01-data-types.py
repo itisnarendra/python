@@ -43,6 +43,7 @@ pm[3:]
 type(pm[3:])
 
 ##Python data type - Sequence (list)
+colors = list(('red','orange','yellow','green','blue'))	#using the list constructor
 presidents = ['obama', 'bush', 'clinton', 'reagan', 'carter']
 presidents
 print(presidents)
