@@ -32,28 +32,28 @@ name *= 2
 
 ##Python data type - String (byte)
 note = f'ftp works on port {ftp}
-
-pm = b'Justin Trudeau'
+pm = b'Justin Trudeau'	#another byte string
 print(pm)
 type(pm)
 pm[1]
 type(pm[1])
-chr(117)
-ord('u')
+chr(117)		#converts the int argument to the ascii letter
+ord('u')		#converts the argument to a number
 pm[3:]
 type(pm[3:])
 
+##Python data type - Sequence (list)
+presidents = ['obama', 'bush', 'clinton', 'reagan', 'carter']
+presidents
+print(presidents)
+type(presidents)
+#provides help on the functions associated with presidents
+help(presidents)
+presidents[-1] = 'trump'	#replaces the last item
+presidents.insert(0, 'biden')	#inserts at the begining of the list
+presidents.pop()		#removes the first one
 
-friends = ['obama', 'bush', 'clinton', 'reagan', 'carter']
-friends
-print(friends)
-type(friends)
-friends[-1] = 'ford'
-#provides help on the functions associated with friends
-help(friends)
-friends.insert(0, 'trump')
-friends.pop()
-
+##Python data type - Sequence (dictionary)
 services = {'ftp': 21, 'ssh': 22, 'smtp': 25, 'http': 80, 'pop3': 110, 'imap': 220, 'https': 443}
 
 services
