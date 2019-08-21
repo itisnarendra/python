@@ -7,28 +7,31 @@ ftp = 0b10101		#binary number
 ssh = 0o26		#octal number
 sntp = 25		#decimal number
 http = 0x50		#hexadecimal number
+ftp
+type(ftp)
 
 ##Python data type - Numeric (float)
 earth = 5.972e24	#mass of earth in kg
 proton = 1.6726e-27	#mass of a proton in kg
+type(earth)
 
 ##Python data type - Numeric (Bool)
 is_married = True	
-proton = 1.6726e-27	
+is_fulltime = False
+type(is_married)
 
-
-
+##Python data type - String (you may use single, double or triple quotes for delimiters)
 name = 'narendra pershad'
-#a string can be treated as an array of letters
+type(name)
+#a string can be treated as an sequence of letters
 name[2]
 name[2:]
 name[:2]
 name[2:5]
 name *= 2
 
-note = f'ftp workd on port {ftp}'
-note
-
+##Python data type - String (byte)
+note = f'ftp works on port {ftp}
 
 pm = b'Justin Trudeau'
 print(pm)
