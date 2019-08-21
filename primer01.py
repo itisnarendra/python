@@ -65,17 +65,3 @@ for key in services:
 	print(key, services[key])
 
 services['smtp'] = 336		#adds a new key-value pair to services
-
-
-def hello():
-	'''prints hello world'''
-	print("Hello World!")
-
-def hello_world(name):
-	'''prints hello world'''
-	print('Hello World from', name)
-
-def sum(a, b):
-	'''a function to add two numbers'''
-	return a + b
-
