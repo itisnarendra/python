@@ -38,7 +38,7 @@ type(pm)
 pm[1]
 type(pm[1])
 chr(117)		#converts the int argument to the ascii letter
-ord('u')		#converts the argument to a number
+ord('u')		#converts the string argument to a number
 pm[3:]
 type(pm[3:])
 
@@ -55,7 +55,6 @@ presidents.pop()		#removes the first one
 
 ##Python data type - Sequence (dictionary)
 services = {'ftp': 21, 'ssh': 22, 'smtp': 25, 'http': 80, 'pop3': 110, 'imap': 220, 'https': 443}
-
 services
 type(services)
 #for loop
@@ -65,7 +64,7 @@ for key in services:
 for key in services:
 	print(key, services[key])
 
-services['smtp'] = 336
+services['smtp'] = 336		#adds a new key-value pair to services
 
 
 def hello():
