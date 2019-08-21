@@ -1,2 +1,3 @@
 # python
-All things relating to python
+Some basic concepts relating to python
+
