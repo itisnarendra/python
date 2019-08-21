@@ -1,15 +1,21 @@
-## None
+##Python data type - None
 a = None
 type(a)
 
-## numeric
-ftp = 0b10101
-ftp
-ssh = 0o26
-ssh
-sntp = 25
-sntp
-http = 0x50
+##Python data type - Numeric (int)
+ftp = 0b10101		#binary number
+ssh = 0o26		#octal number
+sntp = 25		#decimal number
+http = 0x50		#hexadecimal number
+
+##Python data type - Numeric (float)
+earth = 5.972e24	#mass of earth in kg
+proton = 1.6726e-27	#mass of a proton in kg
+
+##Python data type - Numeric (Bool)
+is_married = True	
+proton = 1.6726e-27	
+
 
 
 name = 'narendra pershad'
