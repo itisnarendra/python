@@ -51,13 +51,13 @@ ssh = 0o26			#octal number
 sntp = 25			#decimal number
 http = 0x50			#hexadecimal number
 
-print(f'ftp used port {ftp}')
+print(f'ftp uses port {ftp}')
 type(ftp)
 #help(ftp)			#uncomments this line for more output
 
 ```
 
-    ftp used port 21
+    ftp uses port 21
 
 
 
